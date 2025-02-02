@@ -1,0 +1,27 @@
+#header1 {
+    background-color: #ED5107;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 14px;
+    display:flex;
+    justify-content:space-around
+}
+#header1 .fa-phone {
+    color: #980707;
+    align-items: left;
+}
+#header1 .fa-envelope {
+    color: #980707;
+    align-items: right;
+}
+#header1 a {
+    color: #ffffff;
+}
+#header2 .fa-heart {
+    color: #e42929;
+    align-items: left;
+}
+#header2 .fa-shopping-cart {
+    color: #e42929;
+    align-items: right;
+}
