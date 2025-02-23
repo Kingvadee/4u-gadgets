@@ -3,51 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="4u-gadgets">
+    <meta name="keywords" content="4u-gadgets, gadgets, accessories">
     <meta name="description" content="4u-gadgets is a company that sells gadgets and accessories.">
-    <link rel="stylesheet" href="./public/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>4u-Gadgets</title>
 </head>
 <body>
+    <!-- header1 section -->
     <header id="header1">
-        <div>
-            <i class="fas fa-phone"></i> +234 <br /> <i class="fas fa-envelope"></i> 4u-gadgets@example.com
-        </div>
-        <nav>
-            <ul>
-                <div><i class="fas fa-user"></i>  <a href="./public/my_account.html">My Account</a></div>
-            </ul>
-        </nav>
-    </header>
-    <header id="header2">
-        <div class="logo" ><img src="./assets/images/4U-Gadgets.jpg" width="200" alt="4U-Gadgets logo" /></div>
-        <div class="search-bar">
-            <input type="text" placeholder="Search products...">
-            <button>Search</button>
-        </div>
-        <div><i class="fas fa-heart"></i><span>Your Wishlists</span></div>
-        <div><i class="fas fa-shopping-cart"></i><span>Cart</span></div>
-    </header>
-    <header id="header3">
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Welcome to 4u-gadgets</h1>
-            <p>4u-gadgets is a company that sells gadgets and accessories. We have a wide range of products that you can choose from. We have the latest gadgets and accessories that you can buy at an affordable price. We have a team of experts that can help you choose the right product for you. We also have a customer service team that can help you with any questions or concerns that you may have. We are committed to providing you with the best products and services. We look forward to serving you.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 4u-gadgets. All rights reserved.</p>
-    </footer>
+        <div class="container-info">
+            <div class="left-section">
+                <p><i class="fas fa-phone"></i> +234-910-000-00005</p>
+                <p><i class="fas fa-envelope"></i> 4u-gadgets@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123, Gadget Street, Lagos, Nigeria</p>
+            </div>
 
-    <script src="script.js"></script>
+            <div class="right-section">
+                <p><i class="fas fa-dollar-sign"></i> USD</p>
+                <p><i class="fas fa-user"></i> <a href="account.html">My Account</a></p>
+            </div>
+        </div>
+    </header>
+
+    <!-- header2 section -->
+    <header id="header2">
+        <div id="logo-container">
+            <img id="img" src="public/assets/images/pngaaa.com-220958.png" alt="4u-gadget logo" loading="lazy">
+            <h1 id="logo">4u-Gadgets</h1>
+        </div>
+        <div class="right-section">
+            <div class="search-bar">
+                <select id="dropdown" required>
+                    <option value="">All Categories</option>
+                    <option value="1">SmartPhones</option>
+                    <option value="2">Laptops</option>
+                    <option value="3">Cameras</option>
+                    <option value="4">SmartWatch</option>
+                    <option value="5">Accessories</option>
+                </select>
+                <input type="text" placeholder="Search here...">
+                <button>Search</button>
+            </div>
+        </div>
+        <div class="left-section">
+            <div><i class="fas fa-heart"></i> Your Wishlist</div>
+            <div><i class="fas fa-cart-shopping"></i> Cart</div>
+        </div>
+   </header>
+
+   <!-- header3 section -->
+    <header class="header3">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Categories</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
 </body>
 </html>
